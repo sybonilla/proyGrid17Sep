@@ -1,0 +1,49 @@
+.contenedor{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2fr 1fr 7fr 1fr;
+   
+    
+}
+.contenedor>div{
+    background-color: chartreuse;
+}
+.contenedor .cabecera{
+    background-color: yellow;
+    grid-column: 1/5;
+}
+.contenedor .menu{
+    background-color: coral;
+    grid-column: 1/5;
+}
+.contenedor .contenido{
+    background-color: beige;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: row;
+}
+.contenedor .publi{
+    background-color: antiquewhite;
+    grid-column: 3/5;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor .pie{
+    background-color: darkgoldenrod;
+    grid-column: 1/5;
+} 
+.contenedor .contenido .textoCon{
+    background-color: blue;
+    margin: 10px;
+}
+.contenedor .publi .pub{
+    background-color: green;
+    margin: 10px;
+}
+
+
